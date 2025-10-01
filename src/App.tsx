@@ -1,8 +1,8 @@
 import { motion } from 'motion/react';
 import HeroSection from './components/HeroSection';
 import OrderSection from './components/OrderSection';
-import bgImage from './assets/bg.png';
-import posterImage from './assets/poster.png';
+import bgImage from './assets/bg.webp';
+import posterImage from './assets/poster.webp';
 
 export default function App() {
   const pizzaImage = posterImage;

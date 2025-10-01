@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Button } from './ui/button';
 import { ShoppingCart, Clock, Star } from 'lucide-react';
-import bg from '../assets/bg.png';
+import bg from '../assets/bg.webp';
 
 interface OrderSectionProps {}
 

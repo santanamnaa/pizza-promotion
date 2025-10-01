@@ -1,19 +1,24 @@
 declare module '*.png' {
-  const value: string;
-  export default value;
+  const content: string;
+  export default content;
 }
 
 declare module '*.jpg' {
-  const value: string;
-  export default value;
+  const content: string;
+  export default content;
 }
 
 declare module '*.jpeg' {
-  const value: string;
-  export default value;
+  const content: string;
+  export default content;
+}
+
+declare module '*.webp' {
+  const content: string;
+  export default content;
 }
 
 declare module '*.svg' {
-  const value: string;
-  export default value;
+  const content: string;
+  export default content;
 }
