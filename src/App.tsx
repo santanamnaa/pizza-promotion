@@ -54,23 +54,27 @@ export default function App() {
           </motion.div>
 
           <motion.div
-          className="grid md:grid-cols-3 gap-6 mb-6"
+          className="flex flex-wrap justify-center gap-6 mb-6"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <div>
+          <div className="flex-1 min-w-[200px] text-center">
             <h4 className="text-lg font-bold text-[#650602] mb-2">Contact</h4>
             <p className="text-white">+62 828 9887 873</p>
             <p className="text-white">dagdownpizza.my.id</p>
           </div>
-          <div>
+          <div className="flex-1 min-w-[200px] text-center">
             <h4 className="text-lg font-bold text-[#650602] mb-2">Hours</h4>
             <p className="text-white">Mon-Fri: 10AM-11PM</p>
             <p className="text-white">Sat-Sun: 10AM-12AM</p>
           </div>
-          <div>
+          <div className="flex-1 min-w-[200px] text-center">
+            <h4 className="text-lg font-bold text-[#650602] mb-2">Location</h4>
+            <p className="text-white">Jl. Tanjung Duren Raya No.5</p>
+          </div>
+          <div className="flex-1 min-w-[200px] text-center">
             <h4 className="text-lg font-bold text-[#650602] mb-2">Special</h4>
             <p className="text-white">Party packages available</p>
             <p className="text-white">Group discounts</p>

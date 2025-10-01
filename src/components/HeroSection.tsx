@@ -87,7 +87,7 @@ export default function HeroSection({ pizzaImage, backgroundImage }: HeroSection
             }}
           >
             <span className="text-sm md:text-base font-bold">ONLY</span>
-            <span className="text-xl md:text-2xl font-black">10$</span>
+            <span className="text-xl md:text-2xl font-black">Rp 150K</span>
           </motion.div>
         </motion.div>
       </motion.div>
